@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
+.navbarSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+}
+.navbarSection .logoSection .logo {
+  display: flex;
+  flex-direction: row;
+}
+.navbarSection .logoSection .logo img {
+  width: 100px;
+}
+.navbarSection .logoSection .logo .logoName {
+  font-family: "Dancing Script", cursive;
+  font-size: 60px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 0;
+  color: #EDB70C;
+}
+.navbarSection .navSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbarSection .navSection p {
+  margin-right: 80px;
+  font-size: 23px;
+  font-weight: 600;
+  color: #17C4E6;
+}
+.navbarSection .navSection p:hover {
+  color: #EDB70C;
+}/*# sourceMappingURL=Navbar.css.map */
