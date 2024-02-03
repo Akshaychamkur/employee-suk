@@ -28,11 +28,11 @@
             }
         }
     }
-    .navSection{
+
+    .navSection {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-
         align-items: center;
 
         p{
@@ -40,10 +40,10 @@
             font-size: 23px;
             font-weight: 600;
             color: #17C4E6;
-            &:hover{
+
+            &:hover {
                 color: #EDB70C;
             }
         }
     }
-
 }

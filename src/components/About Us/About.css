@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+   
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: white; 
+  }
+  
+  .section {
+    font-family: Arial, sans-serif;
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black; 
+    position: relative;
+  }
+  
+  .black {
+    background-color: black;
+    color: white;
+    position: relative;
+  }
+  
+  .black .about-link {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .black h1 {
+    position: absolute;
+    top: 20px;
+    left: 50px; 
+    color: white;
+    margin: 0;
+  }
+  
+  .white {
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+  }
+  
+  .white-content {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .white-image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .white-image img {
+    max-width: 50%;
+    max-height: 100%;
+  }

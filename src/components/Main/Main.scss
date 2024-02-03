@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Dancing+Script:wght@400;500;600;700&family=Nanum+Gothic:wght@400;700&display=swap');
+
+.mainSection{
+    display: flex;
+   
+    .leftside{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        justify-content: left;
+
+    }
+    .rightside{
+        display: flex;
+        margin-left: 80px;
+        width: 100%;
+        border-top-left-radius: 250px;
+        border-bottom-left-radius:250px ;
+        background-color: #EDB70C;
+
+        h1{
+            font-family: 'Comfortaa', sans-serif;
+            font-weight: 900;
+            margin-left: 20px;
+            margin-right: 20px;
+            line-height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    }
+    
+}
